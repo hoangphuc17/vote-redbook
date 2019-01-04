@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>ico_video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile-home-opt1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m-home-2601" transform="translate(-35.000000, -746.000000)" fill="#9B9B9B">
+            <g id="ico_video" transform="translate(35.000000, 746.000000)">
+                <g>
+                    <g id="video" transform="translate(2.500000, 0.000000)" fill-rule="nonzero">
+                        <g id="mobile-home-opt1">
+                            <g id="m-home-fa">
+                                <g id="_x34_-tin-copy-2">
+                                    <g id="_x31_.1">
+                                        <g id="Group">
+                                            <g id="video">
+                                                <path d="M14.5,17.25 L2.625,17.25 C1.375,17.25 0.25,16.25 0.25,14.875 L0.25,3 C0.25,1.75 1.25,0.625 2.625,0.625 L14.5,0.625 C15.75,0.625 16.875,1.625 16.875,3 L16.875,14.875 C16.875,16.125 15.875,17.25 14.5,17.25 Z M2.625,1.875 C2,1.875 1.5,2.375 1.5,3 L1.5,14.875 C1.5,15.5 2,16 2.625,16 L14.5,16 C15.125,16 15.625,15.5 15.625,14.875 L15.625,3 C15.625,2.375 15.125,1.875 14.5,1.875 L2.625,1.875 Z M5.375,14.375 L5.375,4.375 L13.125,9.375 L5.375,14.375 Z M6.625,6.625 L6.625,12 L10.75,9.25 L6.625,6.625 Z" id="Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M16,19.875 L4.5,19.875 C2.25,19.875 0.25,18 0.25,15.625 L0.25,4 L1.5,4 L1.5,15.625 C1.5,17.25 2.875,18.625 4.5,18.625 L16,18.625 C16,18.625 16,19.875 16,19.875 Z" id="Shape" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
