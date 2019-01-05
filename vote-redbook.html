@@ -13,10 +13,9 @@
 <body>
 
 
-<input type="range" min="1" max="100" value="50" class="slider" id="slider">
 <p>Value: <span id="demo"></span></p>
 
-<div class="border-radius-5 w300">
+<div class="border-radius-5500 w300 pb10 bg red">
     <div class="pos-relative bg-header pb-30">
 
         <div class="pos-absolute">
@@ -34,8 +33,8 @@
         </div>
     </div>
 
-    <div class="pos-relative mobi-h300 mobi-overflow-hidden">
-        <div class="js-range-slider p10 custom-scrollbar bg red pos-absolute">
+    <div class="pos-relative h600 overflow-y-scroll custom-scrollbar mobi-h300 mobi-overflow-hidden">
+        <div class="js-range-slider p10 bg red pos-absolute mobi-pr30 last-child-mb0">
             <div class="post pos-relative bg-fff mb15 notch-2nd-corner">
                 <div class="flexbox">
                     <div class="post-thumb pos-relative w-37">
@@ -301,6 +300,10 @@
 
 
         </div>
+
+        <input type="range" min="1" max="" value="1" class="dis-none mobi-dis-block mobi-slider pos-absolute t10 r5"
+               id="mobi-slider">
+
     </div>
 
 
@@ -308,27 +311,32 @@
 
 
 <script type="text/javascript">
+
     document.addEventListener("DOMContentLoaded", function (event) {
-        if (!$('.js-bg-vote').hasClass('voted')) {
-
-        }
         $('.js-bg-vote').click(function () {
-
             if (!$(this).hasClass('voted')) {
                 $(this).addClass('voted');
             } else {
                 $(this).removeClass('voted');
             }
-
         });
 
-        var slider = document.getElementById("myRange");
-        var output = document.getElementById("demo");
-        output.innerHTML = slider.value;
+        var slider = $("#mobi-slider");
+        var output = $("#demo");
+        var height_content = $('.js-range-slider').height();
+        slider.attr('max', height_content);
+        output.html('1');
+        slider.on('input', function () {
+            var value = $(this).val();
+            if (value == 1) {
+                $('.js-range-slider').css('top', '0px');
+            } else {
+                var value = $(this).val() - 280;
+                output.html(value);
+                $('.js-range-slider').css('top', '-' + value + 'px');
+            }
+        });
 
-        slider.oninput = function () {
-            output.innerHTML = this.value;
-        }
     });
 </script>
 
